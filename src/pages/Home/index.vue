@@ -11,6 +11,7 @@
     <Floor></Floor>
     <Floor></Floor>
     <Brand></Brand>
+
   </div>
 </template>
 
@@ -25,6 +26,8 @@ import Rank from "@/pages/Home/Rank";
 import Like from "@/pages/Home/Like";
 import Floor from "@/pages/Home/Floor";
 import Brand from "@/pages/Home/Brand";
+
+
 
 export default {
   //import引入的组件需要注入到对象中才能使用
@@ -41,11 +44,15 @@ export default {
     return {};
   },
   //监听属性 类似于data概念
-  computed: {},
+  computed: {
+
+  },
   //监控data中的数据变化
   watch: {},
   //方法集合
-  methods: {},
+  methods: {
+
+  },
   //生命周期 - 创建完成（可以访问当前this实例）
   created() {},
   //生命周期 - 挂载完成（可以访问DOM元素）
